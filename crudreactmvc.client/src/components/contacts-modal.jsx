@@ -54,7 +54,7 @@ export default function ContactsModal({ open, onClose, contactId = null }) {
                 setValues(contact);
             }
         }
-    }, [contactId])
+    }, [contactId, contacts]);
 
     return (
         <Modal isOpen={open} centered>
